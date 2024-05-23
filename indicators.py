@@ -29,7 +29,7 @@ with open("sample.json", "w") as outfile:
 
 
 # Read JSON
-with open('/home/user/pythonflask1/sample.json') as inputfile:
+with open('sample.json') as inputfile:
   data = json.load(inputfile)
 
 # Extract values
